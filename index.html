@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Meen Samayal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="restaurant, Meen Samayal, seafood, cuisine">
+    <meta name="description" content="Experience the finest seafood cuisine at Meen Samayal. Discover a wide range of delicious dishes and a welcoming atmosphere.">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-color" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white d-none d-lg-flex topbar" id="home">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <small class="ms-4"><i class="fa fa-envelope me-3"></i>meensattikuzhambu@gmail.com</small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i>+91 86101 04233</small>
+                <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="https://m.facebook.com/profile.php/?id=100091528754782" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="https://www.instagram.com/meen_samayal" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="https://api.whatsapp.com/send?phone=8610104233&text=I am interested in your services." target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="" width="180px" height="100px">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#home" class="nav-item nav-link">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menus</a>
+                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                                <a href="#menu" class="dropdown-item">Menu 1</a>
+                                <a href="#" class="dropdown-item">Menu 2</a>
+                            </div>
+                        </div> -->
+                        <a href="#menu" class="nav-item nav-link">Menu</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Slider -->
+    <div class="banner-carousel banner-carousel-1 mb-0" id="slide">
+        
+        <div class="banner-carousel-item">
+            <div class="container-fluid facts hero-header py-5">
+                <div class="container py-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 class="slide-title" data-animation-in="slideInLeft" style="color: black;">Your Gateway to South Indian Cuisine</h2>
+                            <h3 class="slide-sub-title" data-animation-in="slideInRight" style="color: #e99549;">Meen <span style="color: #823335;">Samayal</span></h3>
+                            <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                <a href="#about" class="slider btn btn-primary">About Us</a>
+                                <a href="#" class="slider btn book-now" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 hero-header" data-aos="zoom-in">
+                            <img class="img-fluid" src="img/slide-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-carousel-item">
+            <div class="container-fluid facts py-5">
+                <div class="container py-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 class="slide-title" data-animation-in="slideInLeft" style="color: black;">Our Signature Fish Curry Meal</h2>
+                            <h3 class="slide-sub-title" data-animation-in="slideInRight" style="color: black;">Flavorful Fish Finger</h3>
+                            <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                <a href="#service" class="slider btn btn-primary">Learn more</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6" data-aos="zoom-in">
+                            <img class="img-fluid" src="img/slide-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-carousel-item">
+            <div class="container-fluid facts py-5">
+                <div class="container py-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 class="slide-title" data-animation-in="slideInLeft" style="color: black;">Convenient Ordering Options</h2>
+                            <h3 class="slide-sub-title" data-animation-in="slideInRight" style="color: black;"><span style="color: #f72e42;">Zomato</span> | <span style="color: #ef841e;">Swiggy</span></h3>
+                            <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                                <a href="https://www.zomato.com/coimbatore/meensatti-kuzhambu-1-vadavalli" class="slider btn zomato" target="_blank">Order in Zomato</a>
+                                <a href="https://www.swiggy.com/restaurants/meensatti-kuzhambu-10th-cross-main-road-vadavalli-coimbatore-690609" class="slider btn btn-primary" target="_blank">Order in Swiggy</a>
+                            </p>
+                            <p style="color: black;" class="mt-5"><b>Place your order seamlessly through the Zomato and Swiggy app and have it delivered to your doorstep.</b></p>
+                        </div>
+                        <div class="col-lg-6" data-aos="zoom-in">
+                            <img class="img-fluid" style="animation-duration: 3s;" src="img/slide-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+      </div>
+
+      <!-- Service Start -->
+      <div class="container-xxl py-5" id="service">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h5>Master Chefs</h5>
+                            <p>Behind every delectable dish at Meen Samayal stands a team of passionate and skilled Master Chefs, the unsung heroes of our culinary journey.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                            <h5>Quality Food</h5>
+                            <p>We are committed to providing our customers with the highest quality food. We use only the freshest ingredients and prepare our food with care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                            <h5>Online Order</h5>
+                            <p>Order your authentic and tasty fish curry meal online today and experience the true flavors of South Indian cuisine.<br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h5>24/7 Service</h5>
+                            <p>At Meen Samayal, we understand that the desire for authentic and flavorful South Indian cuisine doesn't adhere to the constraints of time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+      <!-- About Start -->
+      <div class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img src="img/about.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="about-content">
+                        <div class="section-header">
+                            <p style="color:#37b6ff;">About Us</p>
+                            <h2>About <span style="color: #e99549;">Meen </span><span style="color: #823335;">Samayal</span></h2>
+                        </div>
+                        <div class="about-text">
+                            <p>Our commitment to quality and taste is unwavering, and we source the freshest and finest ingredients to create a meal that showcases the essence of coastal cuisine. The Meen Kolambu is a symphony of spices and fresh fish, simmered to perfection, while the Fish Fry boasts a crispy coating that gives way to succulent, tender fish inside.</p>
+                            <p>Our Rasam is a harmonious blend of tangy and spicy flavors, and the sweet ending to your meal is a delightful surprise that will leave you craving for more.</p>
+                            <a href="tel:8610104233" class="slider btn book-now">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Menu Start -->
+    <!-- <div class="menu" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <p style="color:#37b6ff;">Food Menu</p>
+                <h2>Meen Samayal Food Menu</h2>
+            </div>
+            <div class="menu-tab">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#beverages">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#snacks">Mini Combo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#burgers">Combo</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="beverages" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Fish Chilli</span> <strong>₹190.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Fish Finger</span> <strong>₹210.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Aiyalameen Fry</span> <strong>₹120.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-4.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Nethili Meen</span> <strong>₹120.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-5.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Vilameen Fry</span> <strong>₹180.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-6.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Kadal Viral Fry</span> <strong>₹190.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-7.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Vanjaram Fry</span> <strong>₹250.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-8.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Mathi Meen Kuzhambu</span> <strong>₹99.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-9.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Vilameen Kuzhambu</span> <strong>₹170.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-10.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Crab Gravey</span> <strong>₹220.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/non-11.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Prawn Thooku</span> <strong>₹210.00</strong></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-3.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="snacks" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/mini-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Mini Combo 1</span> <strong>₹139.00</strong></h3><br>
+                                        <p>Rice, Mathi Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/mini-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Mini Combo 2</span> <strong>₹199.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/mini-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Mini Combo 3</span> <strong>₹260.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.l</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-2.png" alt="Image">
+                            </div>
+                        </div>
+                    </div><div id="burgers" class="container tab-pane fade">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/combo-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Combo 1</span> <strong>₹330.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/combo-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Combo 2</span> <strong>₹360.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/combo-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Combo 3</span> <strong>₹380.00</strong></h3><br>
+                                        <p>Rice, Crab Gravy, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img">
+                                        <img src="img/menu/combo-4.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text">
+                                        <h3><span>Combo 4</span> <strong>₹420.00</strong></h3><br>
+                                        <p>Rice, Crab Gravy, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <img src="img/menu-1.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Menu End -->
+
+
+    <div class="menu" id="menu">
+        <div class="container">
+            <div class="section-header text-center">
+                <p style="color:#37b6ff;" class="wow fadeInUp" data-wow-delay="0.1s">Food Menu</p>
+                <h2 class="wow fadeInUp" data-wow-delay="0.1s">Meen Samayal Food Menu</h2>
+            </div>
+            <div class="menu-tab">
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                        <a class="nav-link active" href="#beverages">Menu</a>
+                    </li>
+                    <li class="nav-item wow fadeInUp zoomIn" data-wow-delay="0.3s">
+                        <a class="nav-link" href="#snacks">Mini Combo</a>
+                    </li>
+                    <li class="nav-item wow fadeInUp zoomIn" data-wow-delay="0.5s">
+                        <a class="nav-link" href="#burgers">Combo</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="beverages" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Fish Chilli</span> <strong>₹190.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Fish Finger</span> <strong>₹210.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Aiyalameen Fry</span> <strong>₹120.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-4.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Nethili Meen</span> <strong>₹120.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-5.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Vilameen Fry</span> <strong>₹180.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-6.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Kadal Viral Fry</span> <strong>₹190.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-7.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Vanjaram Fry</span> <strong>₹250.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-8.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Mathi Meen Kuzhambu</span> <strong>₹99.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-9.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Vilameen Kuzhambu</span> <strong>₹170.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-10.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Crab Gravey</span> <strong>₹220.00</strong></h3>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/non-11.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Prawn Thooku</span> <strong>₹210.00</strong></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                <img src="img/menu-3.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div><br>
+                    <div id="snacks" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/mini-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Mini Combo 1</span> <strong>₹139.00</strong></h3><br>
+                                        <p>Rice, Mathi Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/mini-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Mini Combo 2</span> <strong>₹199.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/mini-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Mini Combo 3</span> <strong>₹260.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.l</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                <img src="img/menu-2.png" alt="Image">
+                            </div>
+                        </div>
+                    </div><div id="burgers" class="container tab-pane active">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12">
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/combo-1.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Combo 1</span> <strong>₹330.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/combo-2.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Combo 2</span> <strong>₹360.00</strong></h3><br>
+                                        <p>Rice, Meen Kuzhambu, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/combo-3.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Combo 3</span> <strong>₹380.00</strong></h3><br>
+                                        <p>Rice, Crab Gravy, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-img wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                        <img src="img/menu/combo-4.png" alt="Image">
+                                    </div>
+                                    <div class="menu-text wow fadeInUp" data-wow-delay="0.1s">
+                                        <h3><span>Combo 4</span> <strong>₹420.00</strong></h3><br>
+                                        <p>Rice, Crab Gravy, Fish Fry, Rasam, Sweet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-none d-lg-block wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                                <img src="img/menu-1.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="pb-5 pt-8 mt-5">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card card-span mb-3 shadow-lg">
+                    <div class="card-body py-0">
+                      <div class="row justify-content-center">
+                        <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1 wow fadeInUp zoomIn" data-wow-delay="0.1s"><img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-end rounded-md-top-0" src="img/zomato.png" alt="..." /></div>
+                        <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5 wow fadeInLeft" data-wow-delay="0.1s">
+                          <h1 class="card-title mt-xl-5 mb-4">Order in <span style="color: #e23744;">Zomato</span></h1>
+                          <p>Place your order seamlessly through the Zomato app and have it delivered to your doorstep.</p>
+                          <div class="d-grid bottom-0"><a class="btn btn-lg mt-xl-6" href="https://www.zomato.com/coimbatore/meensatti-kuzhambu-1-vadavalli" target="_blank" style="background-color: #e23744;color: white;">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+    
+          </section>
+          <!-- <section> close ============================-->
+          <!-- ============================================-->
+    
+    
+    
+    
+          <!-- ============================================-->
+          <!-- <section> begin ============================-->
+          <section class="py-0 mb-5">
+    
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card card-span mb-3 shadow-lg">
+                    <div class="card-body py-0">
+                      <div class="row justify-content-center">
+                        <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-md-0 wow fadeInLeft" data-wow-delay="0.1s"><img class="img-fluid w-100 fit-cover h-100 rounded-top rounded-md-start rounded-md-top-0" src="img/swiggy.png" alt="..." /></div>
+                        <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                          <h1 class="card-title mt-xl-5 mb-4">Order in <span style="color: #fd6a00;">Swiggy</span></h1>
+                          <p>Enjoy the convenience of Swiggy's food delivery service to get your hands on our authentic fish curry meal.</p>
+                          <div class="d-grid bottom-0"><a class="btn btn-lg mt-xl-6" href="https://www.swiggy.com/restaurants/meensatti-kuzhambu-10th-cross-main-road-vadavalli-coimbatore-690609" target="_blank" style="background-color: #fd6a00;color: white;">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+    
+          </section>
+          <!-- <section> close ============================-->
+          <!-- ============================================-->
+
+    
+    <!-- Quote Start -->
+    <div class="container-xxl py-5 contact" id="contact">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-medium" style="color:#37b6ff;">Contact Us</p>
+                    <h3 class="mb-4">If you have any questions or need assistance, feel free to Contact us</h3>
+                    <p>We value your feedback and inquiries. Whether you have a reservation request, a special event inquiry, or just want to share your thoughts about your dining experience, we're here to assist you.</p>
+                    <p class="mb-4">Our team is dedicated to ensuring your visit is memorable, so please don't hesitate to get in touch with us.</p>
+                    <a class="d-inline-flex align-items-center rounded overflow-hidden number" href="">
+                        <span class="btn-lg-square background-color" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </span>
+                        <span class="fs-5 fw-medium mx-4 text-color">+91 86101 04233</span>
+                    </a>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="mb-4">Get A Free Quote</h2>
+                    <form action="contact.php" method="post">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email" name="email" required>
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile" name="phone" required>
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 130px" name="comments" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn background-color text-white w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote Start -->
+
+    
+    <div class="col-12 wow fadeInup zoomIn" data-wow-delay="0.1s">
+        <iframe class="position-relative rounded w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0519835277046!2d76.89278277480882!3d11.034726789130193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85f98c048abf9%3A0x8899a67155e792ef!2zTWVlbiBTYXR0aSBLdXpoYW1idSAo4K6u4K-A4K6p4K-NIOCumuCun-CvjeCun-CuvyDgrpXgr4HgrrTgrq7gr43grqrgr4Ep!5e0!3m2!1sen!2sin!4v1699441966717!5m2!1sen!2sin"
+            frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Meen Samayal</h4>
+                    <p>At Meen Samayal, we pride ourselves on delivering an authentic and irresistibly flavorful fish curry meal that will tantalize your taste buds and transport you to the coastal regions of India with every bite.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="#home">Home</a>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="#menu">Our Menu</a>
+                    <a class="btn btn-link" href="#contact">Contact Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Thiruvalluvar Nagar, Coimbatore, Tamil Nadu, India.</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 86101 04233</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>meensattikuzhambu@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://m.facebook.com/profile.php/?id=100091528754782" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.instagram.com/meen_samayal" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://api.whatsapp.com/send?phone=8610104233&text=I%20am%20interested%20in%20your%20services." target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-3 mb-md-0">
+                    &copy; <a class="fw-medium text-light" href="index.html">Meen Samayal</a>, All Right Reserved.
+                    Website Designed By <a class="fw-medium text-light" href="https://lizyweb.com" target="_blank">Lizyweb</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: var(--primary);color: white;border: 1px solid var(--primary);padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg background-color text-white btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <div class="fixed_contact">
+        <ul class="p-0 m-0">
+            <li>
+                <a target="blank" href="https://api.whatsapp.com/send?phone=86101042331&text=I am interested in your services.">
+                    <img class=" side-images" src="img/whatsapp.png" alt="whatsapp" height="64" width="64" title=""> &nbsp;
+                    <span class="whats">Whatsapp</span>
+                </a>
+            </li>
+            <li><a href="tel:8610104233" class="phone_icon"><i class="bi bi-telephone-fill px-2"></i><span class="whats">Call</span> </a> </li>
+        </ul>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/slick/slick-animation.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
